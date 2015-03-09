@@ -7,6 +7,7 @@ var url = "api.grooveshark.com";
 var country = {};
 var sessionId = '';
 
+
 var signature = function (message) {
   return MD5(message, secret).toString();
 };
@@ -56,4 +57,11 @@ var init = function (key, secretKey) {
   apiCall('getCountry', undefined, function (data) {
     sessionId = data.result;
   });
+};
+
+module.exports = {
+  signature: signature,
+  apiCall: apiCall,
+  newSession: newSession,
+  init: init
 };
