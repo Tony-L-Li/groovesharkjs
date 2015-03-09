@@ -1,0 +1,25 @@
+{
+  "name": "grooveshark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "grooveshark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tony-L-Li/groovesharkjs.git"
+  },
+  "keywords": [
+    "grooveshark"
+  ],
+  "author": "Tony Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tony-L-Li/groovesharkjs/issues"
+  },
+  "homepage": "https://github.com/Tony-L-Li/groovesharkjs",
+  "dependencies": {
+    "crypto-js": "^3.1.2-5"
+  }
+}
